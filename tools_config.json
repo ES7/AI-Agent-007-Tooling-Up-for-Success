@@ -1,0 +1,75 @@
+{
+  "tools": [
+    {
+      "tool_name": "works_list",
+      "description": "Returns a list of work items matching the request",
+      "arguments": [
+        {"name": "applies_to_part", "type": "array[string]"},
+        {"name": "created_by", "type": "array[string]"},
+        {"name": "issue.priority", "type": "array[string]"},
+        {"name": "issue.rev_orgs", "type": "array[string]"},
+        {"name": "limit", "type": "int"},
+        {"name": "owned_by", "type": "array[string]"},
+        {"name": "stage.name", "type": "array[string]"},
+        {"name": "ticket.needs_response", "type": "bool"},
+        {"name": "ticket.rev_org", "type": "array[string]"},
+        {"name": "ticket.severity", "type": "array[string]"},
+        {"name": "ticket.source_channel", "type": "array[string]"},
+        {"name": "type", "type": "array[string]"}
+      ]
+    },
+    {
+      "tool_name": "summarize_objects",
+      "description": "Summarizes a list of objects",
+      "arguments": [
+        {"name": "objects", "type": "array[object]"}
+      ]
+    },
+    {
+      "tool_name": "prioritize_objects",
+      "description": "Returns a list of objects sorted by priority",
+      "arguments": [
+        {"name": "objects", "type": "array[object]"}
+      ]
+    },
+    {
+      "tool_name": "add_work_items_to_sprint",
+      "description": "Adds the given work items to the sprint",
+      "arguments": [
+        {"name": "work_ids", "type": "array[string]"},
+        {"name": "sprint_id", "type": "string"}
+      ]
+    },
+    {
+      "tool_name": "get_sprint_id",
+      "description": "Returns the ID of the current sprint",
+      "arguments": []
+    },
+    {
+      "tool_name": "get_similar_work_items",
+      "description": "Returns a list of work items that are similar to the given work item",
+      "arguments": [
+        {"name": "work_id", "type": "string"}
+      ]
+    },
+    {
+      "tool_name": "search_object_by_name",
+      "description": "Given a search string, returns the id of a matching object",
+      "arguments": [
+        {"name": "query", "type": "string"}
+      ]
+    },
+    {
+      "tool_name": "create_actionable_tasks_from_text",
+      "description": "Given a text, extracts actionable insights and creates tasks for them",
+      "arguments": [
+        {"name": "text", "type": "string"}
+      ]
+    },
+    {
+      "tool_name": "who_am_i",
+      "description": "Returns the ID of the current user",
+      "arguments": []
+    }
+  ]
+}
