@@ -23,25 +23,36 @@ python -m venv .devrev
 ```
 
 **Mac/Linux**
-```python3 -m venv .devrev
+```bash
+python3 -m venv .devrev
 source .devrev/bin/activate
 ```
 
 ### 3) Install dependencies
-```pip install -r requirements.txt```
+```bash
+pip install -r requirements.txt
+```
 
 ### 4) Set OpenAI API Key
 **Windows (PowerShell)**
-```$env:OPENAI_API_KEY="YOUR_OPENAI_KEY_HERE"```
+```bash
+$env:OPENAI_API_KEY="YOUR_OPENAI_KEY_HERE"
+```
 
 **Windows (CMD)**
-```set OPENAI_API_KEY=YOUR_OPENAI_KEY_HERE```
+```bash
+set OPENAI_API_KEY=YOUR_OPENAI_KEY_HERE
+```
 
 **Mac/Linux**
-```export OPENAI_API_KEY="YOUR_OPENAI_KEY_HERE"```
+```bash
+export OPENAI_API_KEY="YOUR_OPENAI_KEY_HERE"
+```
 
 ### 5) Run the agent
-```python main.py --query "Prioritize my P0 issues and add them to the current sprint"```
+```bash
+python main.py --query "Prioritize my P0 issues and add them to the current sprint"
+```
 
 ### 6) Clear memory (optional)
 ```python main.py --clear```
