@@ -6,22 +6,26 @@ High Prep Problem Statement by DevRev at InterIIT TechMeet 12.0
 ### 1) Clone the repo
 ```bash
 git clone <your-repo-link>
-cd AI-Agent-007-Tooling-Up-for-Success```
+cd AI-Agent-007-Tooling-Up-for-Success
+```
 
 ### 2) Create & activate virtual environment (recommended)
 **Windows (PowerShell)**
 ```bash
 python -m venv .devrev
-.\.devrev\Scripts\Activate.ps1```
+.\.devrev\Scripts\Activate.ps1
+```
 
 **Windows (CMD)**
 ```bash
 python -m venv .devrev
-.\.devrev\Scripts\activate```
+.\.devrev\Scripts\activate
+```
 
 **Mac/Linux**
 ```python3 -m venv .devrev
-source .devrev/bin/activate```
+source .devrev/bin/activate
+```
 
 ### 3) Install dependencies
 ```pip install -r requirements.txt```
