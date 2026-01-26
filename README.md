@@ -5,7 +5,7 @@ High Prep Problem Statement by DevRev at InterIIT TechMeet 12.0
 
 ### 1) Clone the repo
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/ES7/AI-Agent-007-Tooling-Up-for-Success.git
 cd AI-Agent-007-Tooling-Up-for-Success
 ```
 
