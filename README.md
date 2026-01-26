@@ -10,11 +10,13 @@ cd AI-Agent-007-Tooling-Up-for-Success```
 
 ### 2) Create & activate virtual environment (recommended)
 **Windows (PowerShell)**
-```python -m venv .devrev
+```bash
+python -m venv .devrev
 .\.devrev\Scripts\Activate.ps1```
 
 **Windows (CMD)**
-```python -m venv .devrev
+```bash
+python -m venv .devrev
 .\.devrev\Scripts\activate```
 
 **Mac/Linux**
